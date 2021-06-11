@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>QA</title>
+	<!--ctrl+/ 打註解 : 這4個link 是給 bootstrap用的 B-1 -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	 
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+       
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+	
+
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style=background-color:tan;>
+	<section id="bar">
+		<nav class="navbar navbar-expand-md navbar-light bg-light">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="navbar-nav mr-auto">
+						<!--class中的 avtive 代表被選擇中，所以在index.html中，active效果要放在"首頁"這個字上，在intro.html中，active效果要放在"自我介紹"這個字上-->
+					<a class="nav-item nav-link" href="index.html">首頁<span class="sr-only">(current)</span></a>
+					<a class="nav-item nav-link" href="intro.html">狗狗介紹</a>
+					<a class="nav-item nav-link active" href="QA.html">Q and A</a>
+					<a class="nav-item nav-link" href="contactus.html">聯絡我們</a>
+					</div>
+	
+			</div>
+			
+		</nav>
+
+</section>
+
+<div class="container">
+<img src="345.gif" class="rounded float-right" alt="...">
+<hr class="my-4">
+<h2>基金會七大目標</h2>
+ <hr class="my-4">
+<p class="lead">1.建立完善的動物收容教育中心：先解決已經被主人丟棄流浪在外的動物。
+<p class="lead">2.推動動物福利各項措施：尊重動物生存權益。
+<p class="lead">3.犬籍登記管理制度：讓人類體悟萬物平等，深入動物情感能量的真情。
+<p class="lead">4.節育推動：讓流浪動物成為歷史名詞，每個動物都有一位值得依賴的主人。
+<p class="lead">5.設立動物福利診所：透過參與動物的健康生活狀況，瞭解萬物生命的價值。
+<p class="lead">6.成就終極關懷的人道世界：這是我們的最終目標，也是成立基金會的本質。
+<p class="lead">7.教育宣導：正確飼養動物的觀念。
+	
+</div>
+
+
+<section id="QAfirst">
+	<div class="col-8 offset-2">
+	<div class="accordion" id="accordionExample">
+	
+<!--第一張卡片-->
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-light" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          柴犬與秋田犬的差別
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body bodybg">
+        柴犬面貌與秋田犬相似，也因此兩者經常被搞混。細分的話，秋田臉較柴犬圓，柴犬的耳朵與嘴較秋田尖，不過兩者最明顯的差別是體型，公秋田標準肩高66.7公分，秋田標準肩高66cm。公柴犬標準肩高39.5公分，柴犬標準肩高40cm，柴犬比秋田明顯嬌小。
+      </div>
+    </div>
+  </div>
+		<!--第二張卡片-->
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        拉布拉多犬與黃金獵犬的差別
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body bodybg2">
+       因為體型與毛色的關係，很多人會把同是尋回犬的黃金獵犬與拉布拉多犬搞混。而且黃金獵犬與拉布拉多犬都是常見的工作犬，讓許多人不知道怎麼分辨。
+在外觀上面，最明顯的就是毛長的不同。黃金獵犬是長毛，尾巴多有又長又蓬鬆的毛髮。拉不拉多則是短毛，尾巴較粗。雖然都同樣是獵犬，但在個性上面，黃金獵犬與拉不拉多可是非常的不同！黃金獵犬較熱情、活潑，年輕的黃金通常很好動；而拉不拉多則是冷靜穩定又憨厚。黃金獵犬也被大多數飼主認為較有個性與主見，而拉布拉多則多為老實服從。記得~下次在路上看到黃金獵犬，別再把牠叫成拉拉囉！
+金色的長毛臘腸犬也擁有蓬鬆的耳朵和尾巴，在照片中時常被誤認成黃金獵犬，不過臘腸犬的身體較長，四肢粗短壯碩，胸腔寬大，臉部也較尖長。
+
+      </div>
+    </div>
+  </div>
+		<!--第三張卡片-->
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         柯基犬品種介紹
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body bodybg3">
+        一、>>>>>卡迪根威爾斯柯基犬
+威爾斯柯基犬為1107年由法蘭德斯工人攜帶過來的犬種，但也有人認為是隨著威爾斯與瑞典貿易傳至威爾斯的瑞典短腳長身犬和土著犬交配，產生了柯基犬，威爾斯柯基犬名字來自威而斯語「corrci」嬌小之犬的意思。起初的柯基犬是用作牧牛，但是後來牧民不再需要奔波放牧，所以柯基犬漸漸不被用作這一點。卡迪根威爾斯柯基犬一般不需要斷尾。
+		  
+二、>>>>>彭布羅克威爾斯柯基犬
+彭布羅克威爾斯柯基犬和卡迪根威爾斯柯基犬關係一直都非常密切，在近代才開始被分開的。在上世紀30年代以後，美國人開始引進卡迪根威爾斯柯基犬，在1935年，將其認定為單獨的一個犬種。
+		  
+三、>>>>>瑞典柯基犬
+原產地瑞典，在八世紀時主要由瑞典農場主飼養，1948 年瑞典養狗人俱樂部予以認可。
+瑞典人相信它是歐洲各國柯基犬的祖先，但是這種說法引起了廣泛的爭議，瑞典柯基犬到底是柯基犬的祖先還是後裔還沒有定論。外形同威爾斯柯基犬有明顯相似之處，但毛色傾向於柔和的色彩。
+.
+      </div>
+    </div>
+  </div>
+  
+  <!--第四張卡片-->
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         法國鬥牛犬與英國鬥牛犬的差別
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body bodybg4">
+        法國鬥牛犬披毛短而纖細並富有光澤，毛色有藍色、淡黃褐色、白色等。個頭比一般鬥牛犬體型較小，它擁有的那雙蝙蝠耳特別吸引人。身材短圓，骨骼粗壯，肌肉發達，結構緊湊；胸寬深，肋飽滿上收；肩背寬、短、結實，腰狹，後臀彎曲度大，腹發達。法國鬥牛犬性格聰明、敏捷而開朗、親切、忠實、但不常吠、安靜。
+		英國鬥牛犬眼睛的應為圓形，眼間距比較大；頰骨輪廓應明顯、寬大、方正且高掛；臉和吻部很短，鼻子大且寬，上嘴唇厚寬 大且懸垂；勁部短而厚，背線有些許凹陷，皮膚軟而鬆弛；勇敢是它的重要特質，性情平靜溫和，堅定且勇敢。是一位善解人意的傢伙。除了玩賞之外，它也是一位優秀的看守犬，也可作為捕鼠犬。
+    
+      </div>
+    </div>
+  </div>
+  <!--第五張卡片-->
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h2 class="mb-0">
+        <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+         邊境牧羊犬價格影響因素
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+      <div class="card-body bodybg5">
+  第一、顏色決定的 在同樣的品種相比較，最常見的黑白兩色是相對來說比較便宜的，丁香隕 紅隕 咖啡三色 藍白等，這些比較稀少的顏色相對來說比較昂貴的。
+	   第二、血統決定的 我們都知道，狗狗都有純種和串串之分，越純的邊牧在價格上當然是比較貴啦。
+       第三、地區決定的 地區也是可以決定邊牧的價格的。比如說一線城市的整體水平是比較高的，相比二線三線等城市來說，消費水平是略高一些的，你所處的不同城市，買的狗狗當然價格也是有所不同的，往往都是發達的一線城市要比其他的要貴一些。
+	
+      </div>
+    </div>
+  </div>
+ 
+<!--第六張卡片-->
+<div class="card">
+    <div class="card-header" id="headingSix">
+      <h2 class="mb-0">
+        <button class="btn btn-light collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+         貴賓犬品種介紹
+        </button>
+      </h2>
+    </div>
+    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+      <div class="card-body bodybg6">
+  一、標準貴賓犬
+       忠誠服從、喜交際、聰明、活潑、易訓練、可塑性高。標準貴賓犬有著長而直的吻部，嘴唇通常緊閉，略圓的頭骨，前腿筆直平行，肌肉健壯的後腿，還有比例勻稱強壯的頸部，尾巴短小且豎起，毛色單一。巨型貴賓：45厘米-60厘米，允許2厘米的差異。巨型貴賓與標準貴賓僅是體形上的差異，他們有共同的特徵。肩高與身長均相等（呈正方形）。背毛通常修剪成傳統形狀，使其與眾不同。	  
+       二、迷你貴婦犬
+       這是介於標準貴賓犬及玩具貴賓犬之間的品種，牠的原產國於法國，緣起於17世紀，可能是從古老的德國水狗。聰明、活潑、機警。長而直的吻部，前腿筆直平行，肌肉健壯的後腿，強壯的頸部；而牠的毛皮濃密而粗糙，耳朵長而寬，還有橢圓型的小腳，臉小。
+		  
+       三、玩具貴賓犬
+       玩具貴賓犬是三種變種中體型最小的一種，牠的原產國於法國，緣起於15世紀，因為體型小，所以主要用途為玩賞犬，飼養於家中。忠誠、善交際。長而直的吻部，前腿筆直平行，肌肉健壯的後腿，強壯的頸部；而牠的毛皮濃密而粗糙，耳朵長而寬，還有橢圓型的小腳，臉小
+若不加以修剪，讓毛長得很長，就會顯出古時候在歐洲所見的原型犬模樣。
+      </div>
+    </div>
+  </div>
+		
+		  
+      </div>
+    </div>
+ 
+</div>
+</div>
+
+	
+	</section>
+	<hr class="my-4">
+<figure class="figure">
+  <img src="11.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="12.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="13.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="14.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="15.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="16.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="17.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="18.jpg" class="figure-img img-fluid rounded" alt="...">
+  <img src="19.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="20.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="21.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="22.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="25.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="26.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="27.jpeg" class="figure-img img-fluid rounded" alt="...">
+  <img src="28.jpeg" class="figure-img img-fluid rounded" alt="...">
+</figure>
+
+</body>
+</html>
+
+	

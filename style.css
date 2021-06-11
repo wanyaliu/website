@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*	請將first 裡的 jumbotron class 的高度設定為 50vh。*/
+#first .jumbotron{
+	
+
+	height: 75vh;
+	
+}
+
+
+/*	請將first 裡的 h1 標籤的文字顏色為 brown。*/
+#first h1{
+
+	/* C-6 */
+	color:rosybrown;
+	font-family: AR WeiBeiB5Std;
+	padding-left: 400px;
+	font-size:70px;
+}
+#first .btn{
+    padding-left: 135px;
+	padding-right: 135px;
+	font-size:20px;
+}
+#introfirst img
+{
+	
+	/* D-5 */
+	width: 300px;
+}
+
+#introsecond a{
+	text-decoration: none;
+	color: #48206B;
+}
+
+#introsecond{
+	padding-top:100px;
+}
+/*把摺頁裡的img 都設定成為圓角*/
+#accordionExample img{
+	border-radius: 5px;
+	
+}
+
+.accordion{
+	max-width:600px;
+	box-shadow: 0 0 10px rgba(255,0,0,0,2);
+	border-radius:5px;
+	overflow: hidden;
+	font-family: serif;
+}
+/*自己設一個class 用來控制背景顏色*/
+.bodybg{
+	
+    color:firebrick;
+	background-color:lavenderblush;
+}
+.bodybg2{
+	color: darkmagenta;
+	background-color:lavender;
+	font-family: fantasy;
+	tab-size: 20px;
+
+}
+.bodybg3{
+	color: midnightblue;
+	background-color: lightblue;
+	font-family:monospace;
+
+}
+
+#QAfirst{
+	padding-top: 50px;
+	padding-left: 100px;
+}
+#location{
+	padding-top: 50px;
+	padding-left: 250px;
+}
+.bodybg4{
+	
+    color:seagreen;
+	background-color:lightgreen;
+}
+.bodybg5{
+	color: saddlebrown;
+	background-color:moccasin;
+	font-family: fantasy;
+	tab-size: 20px;
+
+}
+.bodybg6{
+	color: gray;
+	background-color:azure;
+	font-family:monospace;
+
+}
